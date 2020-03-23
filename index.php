@@ -105,7 +105,7 @@
       <option value="24">12 AM - 1AM</option>
       </select>
     <br>
-    <button id="Company">Company</button>
+    <button id="saleTimeButton">Company</button>
 </div>
 <div>
 <p>

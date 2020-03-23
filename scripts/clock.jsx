@@ -107,7 +107,7 @@ setInterval( updateClock, oneSecond);
 
 
 // Getting the Sale Time Button To Work
-var saleButton = document.getElementById("Company");
+var saleButton = document.getElementById("saleTimeButton");
 
 var saleEvent = function()
 {
