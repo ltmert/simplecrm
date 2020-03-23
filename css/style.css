@@ -1,13 +1,20 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
 body {
-  background-color: #f16059;
+  background-color: #f0eaea;
 }
 .page {
-  width: 80%;
-  max-width: 960px;
+  width: 90%;
   margin: 50px auto;
   text-align: center;
-  background-color: #f16059;
+  background-color: #f0eaea;
   border-radius: 5px;
+  display: flex;
+  flex-flow: column;
 }
 body {
   font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
@@ -33,7 +40,7 @@ h1, h2, h3, h6 {
   font-family: 'Bungee Shade', cursive;
 }
 
-#lolcatImage {
+#CompanyImage {
   max-width:30em
 }
 
@@ -48,7 +55,7 @@ blockquote {
 blockquote:before { content: '"'; }
 blockquote:after { content: '"'; }
 
-#lolcat {
+#CompIcon {
   margin: 0 auto;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -58,8 +65,8 @@ blockquote:after { content: '"'; }
 #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
   padding: 10px 0;
 }
-#partyTimeButton {
-  background-color: #222;
+#saleTimeButton {
+  background-color: rgb(12, 236, 199);
   width: 300px;
   font-family: 'Bungee', cursive;
   font-size: 18px;
@@ -73,4 +80,36 @@ blockquote:after { content: '"'; }
 footer p {
   text-transform: uppercase;
   font-size: 12px;
+}
+.column_1 {
+    float: left;
+    width:300px;
+    height:100%;
+    background-color:#F20732;
+    padding: 10px;
+    color: #f0eaea;
+}
+
+.column_2{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color:#4CB1F7;
+    padding: 10px;
+    flex-grow : 1;
+}
+.row2column_1 {
+    float: left;
+    width:361px;
+    background-color: #056CF2;
+    color:#f0eaea;
+    padding: 10px;
+    font-size: 9px;
+    line-height: 9px;
+}
+.row_1{
+    display: flex;
+}
+.row_2{
+    display: flex;
 }

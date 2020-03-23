@@ -5,11 +5,13 @@
         Simple CRM from CSIC to N2N
     </title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/simplecrm/css/style.css">
 </head>
 <body>
-<h1>Simple, custom and effective CRM</h1>
+<!--<h1>Simple, custom and effective CRM</h1>-->
 <div class="page">
+<div class="row_1">
+<div class="column_1">
     <header>
       <h1>Company size</h1>
     </header>
@@ -19,9 +21,12 @@
       <span id="clock">Clock </span>
     </h4>
     <img id="CompanyImage" src="/simplecrm/media/startup-vector-free-icon-set-01" alt="CompIcon">
-
+</div>
+<div class="column_2">
     <blockquote id="timeEvent">This is where time events are reported</blockquote>
-    What is your company doing now
+   <p> What is your company doing now</p>
+   <br>
+   Set Start time
     <select id="wakeUpTimeSelector">
       <option value="1">1 AM - 2AM</option>
       <option value="2">2 AM - 3AM</option>
@@ -107,7 +112,9 @@
     <br>
     <button id="saleTimeButton">Company</button>
 </div>
-<div>
+</div>
+<div class="row_2">
+    <div class="row2column_1">
 <p>
 Customer Relationship Management (CRM) is a system that tracks, records and assists customer interactions and data throughout the customer lifecycle between the customer and the company across different channels. 
 </p>
@@ -135,12 +142,14 @@ Sales managers will be able to:
 </ul>
 </div>
 
-<div>
+<div class="column_2">
     <h2>start CRM:</h2>
     <div>   
         <a href="sales/tasks.php">Sales</a> | <a href="managers/pipeline.php">Manager</a>
     </div>
 </div>
+</div>
+<div>
 <footer>
 
 </footer>
